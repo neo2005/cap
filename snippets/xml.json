@@ -1,0 +1,476 @@
+{
+    "package": 
+    {
+        "prefix": "package",
+        "body": 
+        [
+            "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+            "<Package xmlns=\"http://soap.sforce.com/2006/04/metadata\">",
+            "",
+            "<version>43.0</version>",
+            "</Package>"
+        ],
+    "description": "Body to package.xml"
+    },
+    "apexclass": 
+    {
+        "prefix": "apexclass",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>ApexClass</name>",
+            "</types>"
+        ],
+    "description": "Structure for apex class"
+    },
+    "apexpage": 
+    {
+        "prefix": "apexpage",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>ApexPage</name>",
+            "</types>"
+        ],
+    "description": "Structure for Apex Page"
+    },
+    "application": 
+    {
+        "prefix": "application",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>CustomApplication</name>",
+            "</types>"
+        ],
+    "description": "Structure for Custom Application"
+    },
+    "aura": 
+    {
+        "prefix": "aura",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>AuraDefinitionBundle</name>",
+            "</types>"
+        ],
+    "description": "Structure for aura"
+    },
+    "certificate": 
+    {
+        "prefix": "certificate",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Certificate</name>",
+            "</types>"
+        ],
+    "description": "Structure for Certificate"
+    },
+    "customsite": 
+    {
+        "prefix": "customsite",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>CustomSite</name>",
+            "</types>"
+        ],
+    "description": "Structure for Custom Site"
+    },
+    "dashboard": 
+    {
+        "prefix": "dashboard",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Dashboard</name>",
+            "</types>"
+        ],
+    "description": "Structure for Dashboard"
+    },
+    "flexipage": 
+    {
+        "prefix": "flexipage",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>FlexiPage</name>",
+            "</types>"
+        ],
+    "description": "Structure for flexipage"
+    },
+    "global": 
+    {
+        "prefix": "global",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>GlobalValueSet</name>",
+            "</types>"
+        ],
+    "description": "Structure for global value set"
+    },
+    "group": 
+    {
+        "prefix": "group",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Group</name>",
+            "</types>"
+        ],
+    "description": "Structure for Group"
+    },
+    "label": 
+    {
+        "prefix": "label",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>CustomLabels</name>",
+            "</types>"
+        ],
+    "description": "Structure for Custom labels"
+    },
+    "layout": 
+    {
+        "prefix": "layout",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Layout</name>",
+            "</types>"
+        ],
+    "description": "Structure for layout"
+    },
+    "network": 
+    {
+        "prefix": "network",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Network</name>",
+            "</types>"
+        ],
+    "description": "Structure for Network"
+    },
+    "object": 
+    {
+        "prefix": "object",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>CustomObject</name>",
+            "</types>"
+        ],
+    "description": "Structure for object"
+    },
+    "permission": 
+    {
+        "prefix": "permission",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>PermissionSet</name>",
+            "</types>"
+        ],
+    "description": "Structure for permission"
+    },
+    "profile": 
+    {
+        "prefix": "profile",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Profile</name>",
+            "</types>"
+        ],
+    "description": "Structure for profile"
+    },
+    "quick": 
+    {
+        "prefix": "quick",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>QuickAction</name>",
+            "</types>"
+        ],
+    "description": "Structure for Quick Action"
+    },
+    "report": 
+    {
+        "prefix": "report",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Report</name>",
+            "</types>"
+        ],
+    "description": "Structure for Report"
+    },
+    "role": 
+    {
+        "prefix": "role",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Role</name>",
+            "</types>"
+        ],
+    "description": "Structure for Role"
+    },
+    "sharing": 
+    {
+        "prefix": "sharing",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>SharingRules</name>",
+            "</types>"
+        ],
+    "description": "Structure for sharing rules"
+    },
+    "site": 
+    {
+        "prefix": "site",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>SiteDotCom</name>",
+            "</types>"
+        ],
+    "description": "Structure for Sitedotcom"
+    },
+    "static": 
+    {
+        "prefix": "static",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>StaticResource</name>",
+            "</types>"
+        ],
+    "description": "Structure for Static Resource"
+    },
+    "tab": 
+    {
+        "prefix": "tab",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>CustomTab</name>",
+            "</types>"
+        ],
+    "description": "Structure for Tab"
+    },
+    "trigger": 
+    {
+        "prefix": "trigger",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>ApexTrigger</name>",
+            "</types>"
+        ],
+    "description": "Structure for Apex Trigger"
+    },
+    "wave": 
+    {
+        "prefix": "wave",
+        "body": 
+        [
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveApplication</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveDashboard</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveDataflow</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveDataset</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveLens</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveTemplateBundle</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveXmd</name>",
+            "</types>"
+        ],
+    "description": "Structure for wave"
+    },
+    "all": 
+    {
+        "prefix": "all",
+        "body": 
+        [
+            "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+            "<Package xmlns=\"http://soap.sforce.com/2006/04/metadata\">",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>ApexClass</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>ApexPage</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>ApexTrigger</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>AuraDefinitionBundle</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Certificate</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>CustomApplication</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>CustomLabels</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>CustomObject</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>CustomSite</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>CustomTab</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Dashboard</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>FlexiPage</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>GlobalValueSet</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Group</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Layout</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Network</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>PermissionSet</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Profile</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>QuickAction</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Role</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>Report</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>SharingRules</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>SiteDotCom</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>StaticResource</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveApplication</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveDashboard</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveDataflow</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveDataset</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveLens</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveTemplateBundle</name>",
+            "</types>",
+            "<types>",
+            "\t<members>*</members>",
+            "\t<name>WaveXmd</name>",
+            "</types>",
+            "",
+            "<version>43.0</version>",
+            "</Package>"
+        ],
+    "description": "Structure for All"
+    }
+}

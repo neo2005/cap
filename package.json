@@ -1,0 +1,34 @@
+{
+    "name": "cap-ms",
+    "displayName": "cap.ms",
+    "description": "Extension para ayudar a crear package.xml para salesforce",
+    "version": "0.0.2",
+    "publisher": "neo2005",
+    "icon": "images/xml.png",
+    "repository": 
+    {
+        "type": "git",
+        "url": "https://github.com/neo2005/cap.git"
+    },
+    "keywords": 
+    [
+        "XML",
+        "Languages",
+        "Snippets",
+        "Salesforce"
+    ],
+    "engines": {
+        "vscode": "^1.23.1"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "xml",
+                "path": "./snippets/xml.json"
+            }
+        ]
+    }
+}
